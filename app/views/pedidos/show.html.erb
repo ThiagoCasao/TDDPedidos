@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Cliente:</strong>
+  <%= @pedido.cliente %>
+</p>
+
+<p>
+  <strong>Data:</strong>
+  <%= @pedido.data %>
+</p>
+
+<p>
+  <strong>Valor total:</strong>
+  <%= @pedido.valor_total %>
+</p>
+
+<p>
+  <strong>Descontos:</strong>
+  <%= @pedido.descontos %>
+</p>
+
+<p>
+  <strong>Acrescimos:</strong>
+  <%= @pedido.acrescimos %>
+</p>
+
+<p>
+  <strong>Valor frete:</strong>
+  <%= @pedido.valor_frete %>
+</p>
+
+<%= link_to 'Edit', edit_pedido_path(@pedido) %> |
+<%= link_to 'Back', pedidos_path %>

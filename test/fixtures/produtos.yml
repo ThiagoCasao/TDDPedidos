@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nome: MyString
+  peso: 1.5
+  valor: 1.5
+  largura: 1.5
+  altura: 1.5
+  profundidade: 1.5
+
+two:
+  nome: MyString
+  peso: 1.5
+  valor: 1.5
+  largura: 1.5
+  altura: 1.5
+  profundidade: 1.5

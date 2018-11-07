@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cliente: one
+  data: 2018-11-07
+  valor_total: 1.5
+  descontos: 1.5
+  acrescimos: 1.5
+  valor_frete: 1.5
+
+two:
+  cliente: two
+  data: 2018-11-07
+  valor_total: 1.5
+  descontos: 1.5
+  acrescimos: 1.5
+  valor_frete: 1.5
